@@ -1,0 +1,51 @@
+/* Apply block-level display to <p> */
+p {
+  display: block;
+}
+
+/* Apply inline display to <span> */
+span {
+  display: inline;
+}
+
+/* Apply inline-block display to <div> */
+div {
+  display: inline-block;
+}
+/* Q1 */
+/* Your task is to write CSS rules in the styles.css file to style the elements as follows:
+
+The <h1> element should have a background color of yellow and should be centered on the page.
+
+The text inside the <p> element should be bold, and the font size should be 18px.
+
+The <span> element inside the paragraph should have a background color of lightblue and padding of 5px.
+The <a> element should have an underline and a font color of green. */
+.containerQ1 h1{
+  background-color: yellow;
+  text-align: center;
+}
+.containerQ1 p{
+  display: block;
+  font: bold;
+  font-size: 18px;
+}
+/* 
+The .box class should have a width of 100px, a height of 100px, and a margin of 10px.
+The .box elements should be displayed as inline-block elements and should appear side by side on the same line.
+The first box (Box 1) should have a background color of red.
+The second box (Box 2) should have a background color of green.
+The third box (Box 3) should have a background color of blue.
+ */
+ .box {
+  display: inline-block;
+ background-color: red;
+ padding: 1px;
+}
+.box:nth-of-type(2) {
+  background-color: green;
+}
+
+.box:nth-of-type(3) {
+  background-color: blue;
+}

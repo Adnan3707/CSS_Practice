@@ -1,0 +1,14 @@
+.container {
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .header {
+    font-size: 28px;
+    color: red;
+  }
+  
+ .btn{
+    font-size: inherit;
+    color: inherit;
+}
