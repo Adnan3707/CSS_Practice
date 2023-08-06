@@ -1,0 +1,17 @@
+/* Stiling First Letter */
+.first-letter::first-letter{
+  color :red;
+  font: bold;
+  font-size: large;
+}
+/* Question 2: Styling the First Line */
+.first-line::first-line{
+  color: rebeccapurple
+}
+/* Question 3: Styling the Last Child */
+.list li:last-child{
+  color: violet;
+}
+.link:hover{
+  color: red;
+}

@@ -1,0 +1,36 @@
+.box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  z-index: 1;
+}
+
+.box2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* Add your CSS code here to bring .box2 to the front */
+}
+.main-menu {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+}
+
+.sub-menu {
+  display: none;
+  position: relative;
+  top: 40px;
+  left: 0;
+  z-index: 2;
+}
+
+.main-menu li:hover .sub-menu {
+  display: block;
+}
